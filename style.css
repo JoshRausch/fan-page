@@ -1,4 +1,37 @@
-body {background-color: darkolivegreen; color: blanchedalmond;}
-h2 {color: coral; }
-#special {background-color: #333333; }
-.feature {color: #ffffff; }
+body {
+    background-color: darkolivegreen;
+    color: blanchedalmond;
+    font-family: Verdana, Calibri, sans-serif;
+}
+
+h2 {
+    color: coral;
+    text-transform: uppercase
+}
+
+#special {
+    background-color: #333333;
+}
+
+.feature {
+    color: #ffffff;
+}
+
+h1 h2 {
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+footer {
+    font-style: italic;
+    font-size: .80em;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold
+}
+ul {list-style-type: square}
+#background {background-image: url(images/texture1.png);
+    background-repeat: round;
+   
+}
