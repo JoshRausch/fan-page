@@ -6,24 +6,37 @@ body {
 
 h2 {
     color: coral;
-    text-transform: uppercase
+    text-transform: uppercase;
+    opacity: 0.6;
+    padding: 10px;
 }
 
 #special {
     background-color: #333333;
+     background-image: url(images/computer.jpg.png);
+     background-repeat: no-repeat;
+    background-position: right;
+   
+    
+    
 }
 
 .feature {
     color: #ffffff;
+   
 }
 
 h1 h2 {
     font-family: Georgia, "Times New Roman", serif;
+    
 }
 
 footer {
     font-style: italic;
     font-size: .80em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%
 }
 
 a {
@@ -33,5 +46,12 @@ a {
 ul {list-style-type: square}
 #background {background-image: url(images/texture1.png);
     background-repeat: round;
+    padding: 10px 10xp
    
 }
+
+main {padding: 5px 5px;
+margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}}
