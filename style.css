@@ -2,13 +2,14 @@ body {
     background-color: darkolivegreen;
     color: blanchedalmond;
     font-family: Verdana, Calibri, sans-serif;
+    
 }
 
 h2 {
     color: coral;
     text-transform: uppercase;
-    opacity: 0.6;
-    padding: 10px;
+   padding: 10px;
+    text-shadow: 3px 3px 5px #666
 }
 
 #special {
@@ -19,6 +20,15 @@ h2 {
    
     
     
+}
+
+h3 {background-color: darkgoldenrod;
+opacity: 0.6;
+    border-bottom-left-radius: 80px;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-top-right-radius: 80px;
+    padding: 10px 10px;
 }
 
 .feature {
@@ -46,7 +56,9 @@ a {
 ul {list-style-type: square}
 #background {background-image: url(images/texture1.png);
     background-repeat: round;
-    padding: 10px 10xp
+    padding: 10px;
+    color: firebrick
+        
    
 }
 
@@ -54,4 +66,6 @@ main {padding: 5px 5px;
 margin-left: auto;
     margin-right: auto;
     width: 80%;
-}}
+}
+
+p {box-shadow: 5px 5px 5px #666}
