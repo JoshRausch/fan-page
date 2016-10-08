@@ -1,48 +1,51 @@
 body {
-    background-color: darkolivegreen;
-    color: blanchedalmond;
+    background-color: #002514;
+    color: #d09e5d;
     font-family: Verdana, Calibri, sans-serif;
-    
+    background-image: linear-gradient(to bottom, #22754f, #002514);
+    background-repeat: no-repeat;
+    max-width: 1600px;
+    max-height: 900px;
 }
 
-header {position: fixed;
-    width: 80%;
-   text-align: center;
+h1 {
+    color: #51001a;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #d09e5d;
+    padding-top: 20px;
+    padding-bottom: 20px
 }
 
 h2 {
-    color: coral;
+    color: #51001a;
     text-transform: uppercase;
-   padding: 10px;
+    padding: 10px;
     text-shadow: 3px 3px 5px #666
 }
 
 #special {
-    background-color: #333333;
-     padding: 10px 10px 10px 10px;
-    overflow: auto
-   
-    
-    
+    padding: 10px 10px 10px 10px;
 }
 
-h3 {background-color: darkgoldenrod;
-opacity: 0.6;
-    border-bottom-left-radius: 80px;
-    border-top-left-radius: 80px;
-    border-bottom-right-radius: 80px;
-    border-top-right-radius: 80px;
-    padding: 20px 20px;
+h3 {
+    color: #51001a;
+    text-transform: uppercase;
+    padding: 10px;
+    text-shadow: 3px 3px 5px #666;
+    font-family: arial, Verdana, sans-serif;
 }
 
 .feature {
     color: #ffffff;
-   
 }
 
 h1 h2 {
-    font-family: Georgia, "Times New Roman", serif;
-    
+    font-family: arial, Verdana, sans-serif;
 }
 
 footer {
@@ -52,34 +55,41 @@ footer {
     margin-right: auto;
     width: 80%;
     text-align: center;
-        
+    padding-top: 30px;
 }
 
-div a {float: right;
-    height: 105%
+div a {
+    float: right;
+    margin: 10px;
 }
+
 a {
     text-decoration: none;
     font-weight: bold
 }
-ul {list-style-type: square}
-#background {background-image:url(images/computer.jpg.png);
-     background-repeat: no-repeat;
-    background-position: right;;
-    padding: 15px 15px;
-   background-color:darkslateblue;
-    color: firebrick;
-    margin: 10px 10px 10px 10px;
-    width: 100%
-    
-        
-   
+
+ul {
+    list-style-type: square
 }
 
-main {padding: 70px 10px;
-margin-left: auto;
+#background {
+    padding: 20px 20px;
+    margin: 10px 10px 10px 10px;
+    width: 90%;
+}
+
+main {
+    padding: 40px 10px;
+    margin-left: auto;
     margin-right: auto;
     width: 80%;
+    margin-top: 30px;
+    box-shadow: 5px 5px 5px #666;
+    border-bottom-right-radius: 80px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px
 }
 
-p {box-shadow: 5px 5px 5px #666}
+footer a:link {
+    color: #9c234e
+}
